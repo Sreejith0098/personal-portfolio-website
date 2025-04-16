@@ -17,8 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 10;
-    /* background-color: rgb(203, 59, 210); */
-    /* box-shadow: #3333dc40 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+  
 }
 .logo {
     /* font-size: 2em; */
@@ -36,19 +35,17 @@ header {
     margin-right: 40px;
     font-weight: 700;
     transition: .3s;
-    color: #802BB1;
+    color: white;
 }
 .navigation a:hover {
-    color: #7d2ae8;
+    color: rgb(190, 184, 184);
     text-decoration: underline;
 }
 .btn-talk {
     color: #fff;
     text-decoration: none;
     padding: 8px 35px;
-    /* background: #7d2ae8; */
     border-radius: 10px;
-    /* border: 2px solid #7d2ae8; */
     font-weight: 500;
     transition: .3s;
 }
@@ -177,8 +174,6 @@ header {
     
     box-sizing: border-box;
 }
-
-
 
 #contact-form {
     max-width: 600px;
