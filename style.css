@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "Courgette", cursive; */
+    font-family: "Courgette", cursive;
     font-family: "Source Serif 4", serif;
 }
 header {
@@ -17,12 +17,12 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 10;
-    background-color: whitesmoke;
-    box-shadow: #3333dc40 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    /* background-color: rgb(203, 59, 210); */
+    /* box-shadow: #3333dc40 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
 }
 .logo {
     /* font-size: 2em; */
-    color: #555;
+    color: #D1D7E0;
     cursor: default;
 }
 
@@ -36,6 +36,7 @@ header {
     margin-right: 40px;
     font-weight: 700;
     transition: .3s;
+    color: #802BB1;
 }
 .navigation a:hover {
     color: #7d2ae8;
@@ -45,14 +46,14 @@ header {
     color: #fff;
     text-decoration: none;
     padding: 8px 35px;
-    background: #7d2ae8;
+    /* background: #7d2ae8; */
     border-radius: 10px;
-    border: 2px solid #7d2ae8;
+    /* border: 2px solid #7d2ae8; */
     font-weight: 500;
     transition: .3s;
 }
 .btn-talk:hover {
-    color: #7d2ae8;
+    /* color: #7d2ae8; */
     background: transparent;
 }
 .home {
@@ -72,9 +73,10 @@ header {
 }
 .content h2 {
     font-size: 3em;
+    color: #fff;
 }
 .content h2 span {
-    color: #7d2ae8;
+    color: #802BB1;
 }
 .content h4 {
     font-size: 2em;
@@ -122,6 +124,7 @@ header {
     border: 1px solid #fff;
     outline: 2px solid #7d2ae8;
     transition: .3s;
+    color: #D1D7E0;
 }
 .social-icons a:hover {
     transform: translateY(-5px);
@@ -138,26 +141,6 @@ header {
     margin: 5px;
 }
 
-/* .skills{
-    width: 500px;
-    margin: 60px auto;
-    color: #fff;
-    padding: 20px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(o,0,0,0.22);
-}
-.skills li{
-    margin: 20px 0;
-    padding: 10px;
-}
-.barc{
-    background:#353b48 ;
-    display: block;
-    height:20px ;
-    border: 1px solid rgba(0,0,0,0.3);
-    border-radius:10px ;
-    overflow: hidden;
-} */
- 
 #skill-bar-wrapper {
      margin-top: 30px;
      }
@@ -276,6 +259,4 @@ ul li a:hover {
     margin-left: 5px;
    color: #050505;
 }
-
-
 
